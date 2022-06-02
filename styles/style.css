@@ -71,7 +71,7 @@ header .btn:hover{
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Side Bar ////////////////////////////////////////////////////////////////////*/
 .sidenav {
-    height: 100vh;
+    height: 92vh;
     width: 230px;
     position: fixed;
     z-index: 1;
@@ -115,4 +115,18 @@ header .btn:hover{
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+/* Extras */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #d4d9de;
   }
