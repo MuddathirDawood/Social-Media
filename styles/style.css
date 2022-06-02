@@ -9,7 +9,7 @@
     background-color: rgb(246, 246, 246);
     overflow-x: hidden;
     padding-top: 20px;
-    margin-top: 3%;
+    margin-top: 4%;
   }
   
   .sidenav a {
@@ -37,8 +37,17 @@
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Nav Bar ////////////////////////////////////////////////////////////////////*/
 header form{
-    margin-right: 35%;
     width: 40%;
+    margin-bottom: 20px;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+}
+
+hr{
+  margin-top: 4%;  
 }
 
 header .form-control , header .btn{
@@ -56,5 +65,18 @@ header .btn i{
 }
 
 header .btn:hover{
+    background-color: #f0f0f0;
+}
+
+#micIcon{
+    width: 50px;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+}
+
+#micIcon:hover{
     background-color: #f0f0f0;
 }
