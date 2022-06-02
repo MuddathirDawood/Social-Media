@@ -80,3 +80,27 @@ header .btn:hover{
 #micIcon:hover{
     background-color: #f0f0f0;
 }
+
+#settings{
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#settings button{
+    width: 110px;
+    background-color: white;
+    border: solid 1.5px #1266d6;
+    color: #1266d6;
+}
+
+#settings button>i{
+    color: #1266d6;
+}
+
+#settings i{
+    padding: 0 5px 0 5px;
+}
+
+#settings>i{
+    padding: 0 10px 0 10px;
+}
